@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 07_Test_overflow.html</title>
+    <script>
+        //스크립트 주석 대,소문자 구별 있음, 문장마지막세미콜론있음.
+        
+    </script>
+</head>
+
+<body>
+    <br>
+    <h2>407호강의실 반장<span class="Myname"> "이호영"</span> 입니다</h2>
+
+<div class="III">
+    <div class="myimg" style="overflow: auto;"><img src="./IMAGES/gguri.png" alt=""></div>
+    <div class="myimg" style="overflow:hidden"><img src="./IMAGES/gguri.png" alt=""></div>
+    <div class="myimg" style="overflow: scroll"><img src="./IMAGES/gguri.png" alt=""></div>
+    <div class="myimg_01" style="overflow:visible "><img src="./IMAGES/gguri.png" alt=""></div>
+</div>
+
+
+        <p class="cherry"><img src="./IMAGES/cherry.png"  alt="">
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div> </p>
+  
+
+
+    <div class="myimg_01" style="width:250px; height: 250px; border:1px solid red; margin-left: 2000px;"></div>
+   
+</body>
+    <style>
+        *{
+            font-size: 14pt;
+        }
+        .III{
+            display: ;
+        }
+        .myimg{
+            width: 250px;
+            height: 250px;
+            margin: 30px;
+            float: left;
+            border-radius: 5px;
+            border: 1px dotted gray;
+        }
+
+        p, .cherry img {
+            white-space: pre-line;
+            float: left;
+            width: 250px;
+            vertical-align: middle;
+
+        }
+        h2{
+            font-size: 36pt;
+            text-shadow: 
+            2px 2px 1px rgb(255, 251, 251),
+            5px 5px 3px rgb(191, 186, 186),
+            8px 8px 5px rgb(70, 70, 70),
+            12px 12px 8px rgb(70, 70, 70);
+        }
+        .Myname{
+            color: white;
+            font-size: 50pt;
+            text-shadow: 
+            2px 2px 3px rgb(254, 52, 187 ),
+            5px 5px 5px rgb(244, 107, 198, 0.8),
+            10px 10px 5px rgb(233, 126, 197, 0.5),
+            2px 2px 3px rgb(241, 188, 223, 0.3);
+        }
+
+        /*스타일의 주석 */
+    </style>
+</html>

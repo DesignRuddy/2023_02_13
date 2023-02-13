@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 06_Test_overflow.html</title>
+    <script>
+        //스크립트 주석 대,소문자 구별 있음, 문장마지막세미콜론있음.
+    </script>
+</head>
+
+<body>
+    <h2> 06_Test_overflow.html</h2>
+    <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+    <div class="myimg" style="overflow: auto;"><img src="./IMAGES/a1.png" alt=""></div>
+    <div class="myimg" style="overflow:hidden"><img src="./IMAGES/a1.png" alt=""></div>
+    <div class="myimg" style="overflow: scroll"><img src="./IMAGES/a1.png" alt=""></div>
+    <div class="myimg" style="overflow:visible "><img src="./IMAGES/a1.png" alt=""></div>
+
+    <div style="width:250px; height: 250px; border:1px solid red; margin-left: 2000px;"></div>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+     ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</body>
+    <style>
+        *{
+            font-size: 14pt;
+        }
+        .myimg{
+            width: 250px;
+            height: 250px;
+            margin: 30px;
+            float: left;
+            border-radius: 5px;
+            border: 1px dotted gray;
+
+        }
+        /*스타일의 주석 */
+    </style>
+</html>
